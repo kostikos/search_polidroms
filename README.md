@@ -1,2 +1,2 @@
-# search_polidroms
-Count palindrome words in a sentencealindromes ignore capitalization, punctuation, and word boundaries. 
+# Search polidroms
+Count palindrome words in a sentence.
