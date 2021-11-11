@@ -4,8 +4,8 @@ function isPalindrom (str) {
 function findPalindrom (str, separator) {
     const words = str.split(separator);
     let  count=0;
-    for (let i = 0; i < words.length; i += 1) {
-        if(isPalindrom(words[i])){
+    for (let value of words) {
+        if(isPalindrom(value.toLowerCase())){
             count++;
         }
     }
